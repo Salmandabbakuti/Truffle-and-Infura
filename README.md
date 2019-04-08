@@ -26,7 +26,7 @@ https://infura.io/register
 
 ```>const instance = await SimpleStorage.deployed()```
 
-```> await instance.set("hi devs")
+```> await instance.set("hi devs")```
 
 ```> await instance.get()
 hi devs
