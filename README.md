@@ -22,13 +22,12 @@ https://infura.io/register
 
 2. Run ```truffle compile``` and ```truffle migrate --network ropsten```
 
-3. Go to Truffle console ```truffle console --network ropsten```
+3. Go to Truffle console by running  ```truffle console --network ropsten```
 
 ```>const instance = await SimpleStorage.deployed()```
 
 ```> await instance.set("hi devs")```
 
-```> await instance.get()
-hi devs
-```
+```> await instance.get()```
+```hi devs```
 
